@@ -145,6 +145,52 @@ body {
     opacity: 0.6;
 }
 
+.main-link-solid:hover {
+    border-color: transparent;
+    background-color: rgba(222, 46, 84, 0.8);
+    color: #fff;
+}
+
+.main-link-solid:active {
+    background-color: rgba(222, 46, 84, 0.6);
+    opacity: 1;
+}
+
+/* HERO */
+.hero {
+    background-color: #0EB4C1;
+    color: #fff;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero-content {
+    width: 500px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.heto-heading {
+    margin-top: 0;
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    width: 440px;
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+
+.hero-img {
+    align-self: flex-end;
+}
 
 /* SITE_FOOTER */
 .site-footer {
